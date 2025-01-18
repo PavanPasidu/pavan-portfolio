@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Pavan`} </h1> 
                   <p>I am a final-year undergraduate in the Department of Computer Science and Engineering at the University of Moratuwa, deeply passionate about data science and machine learning. My interests lie in exploring cutting-edge developments in artificial intelligence to advance technological innovation.</p>
-                  <a href="/Resume.pdf" download="PavanResume.pdf">
+                  <a href={`${process.env.PUBLIC_URL}/cv.pdf`} download="PavanResume.pdf">
                     <button onClick={() => console.log('connect')}>Download CV <FileEarmarkPdf size={25} /></button>
                   </a>
               </div>}
