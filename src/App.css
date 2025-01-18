@@ -633,7 +633,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .slider-container {
   padding: 20px;
-  background-color: #f9f9f9; /* Adjust as needed */
+  background-color: #3b1f9d; /* Adjust as needed */
 }
 
 .slick-prev:before,
@@ -647,25 +647,171 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   max-width: 800px; /* Set max width for the carousel */
 }
 
-.three-d-container {
-  perspective: 1000px; /* Adds 3D perspective */
-  transform: rotateX(5deg) rotateY(5deg); /* Slight tilt for 3D look */
-  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  width: 80%; /* Adjust width as per your layout */
-  margin: auto;
-  transform-style: preserve-3d;
+/* Gallery */
+/* body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(236, 213, 232) 0%,
+  rgb(50, 112, 118) 100%);
+} */
+.gallery{
+  width: 100%;
+  background-image: url('./assets/img/skill-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.three-d-container:hover {
-  transform: rotateX(0deg) rotateY(0deg); /* Adds an interactive effect */
-  transition: transform 0.5s ease-in-out;
+.gallery h2 {
+  align-items: center;
+  text-align: center;
+  margin-bottom: -30px;
+  margin-top: 20px;
+	font-size: 65px;
+	font-weight: 700;
 }
-
-.card {
-  background-color: white;
+.gallery-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding: 0;
+  max-width: 100%;
+  position: relative;
+}
+.gallery-item{
+  height: 330px;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  width: 330px;
+  z-index: 0;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-size: contain;
+}
+.gallery-item-7{
+  /* height: 100%;  */
+  left: 15%;
+  opacity: .4;
+  transform: translateX(-50%);
+}
+.gallery-item-1, .gallery-item-3{
+  height: 40%;
+  opacity: 0.8;
+  width: 40%;
+  z-index: 1;
+}
+.gallery-item-1{
+  left: 30%;
+  transform: translateX(-50%);
+}
+.gallery-item-2{
+  box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+  height: 65%;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  z-index: 2;
+}
+.gallery-item-3{
+  left: 70%;
+  transform: translateX(-50%);
+}
+.gallery-item-8{
+  left: 85%;
+  opacity: .4;
+  transform: translateX(-50%);
+}
+.gallery-controls{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  margin-top: 0px;
+}
+.gallery-controls button{
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px 10px;
+  padding: 0 6px;
+  text-transform: capitalize;
+  pointer-events: auto;
+  /* transition: background-color 0.3s ease;  */
+}
+.gallery-controls-button:focus {
+  outline: none;
+}
+.gallery-controls-previous{
+  position: relative;
+  left: 2%;
+  color: #FFFFFF;
+}
+.gallery-controls-previous::before{
+  border: transparent;
+  border-width: 0 5px 5px 0;
+  content: '';
+  display: inline-block;
+  height: 5px;
+  left: 5%;
+  padding: 5px;
+  position: absolute;
+  top: 25%;
+  transform: rotate(135deg) translateY(-50%);
+  /* transition: left 0.3s ease-in-out; */
+  width: 5px;
+}
+.gallery-controls-previous:hover:before{
+  left: 5%;
+}
+.gallery-controls-next{
+  position: relative;
+  right: 2%;
+  color: #FFFFFF;
+}
+.gallery-controls-next::before{
+  border: transparent;
+  border-width:0 5px 5px 0;
+  content: '';
+  display: inline-block;
+  height: 5px;
+  padding: 5px;
+  position: absolute;
+  right: -30px;
+  top: 25%;
+  transform: rotate(-45deg) translateY(-50%);
+  /* transition: right 0.3s ease-in-out; */
+  width: 5px;
+}
+.gallery-controls-next:hover:before{
+  right: -40px;
+}
+.gallery-nav{
+  bottom: -15px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+}
+.gallery nav li{
+  background: #ccc;
+  border-radius: 50%;
+  height: 10px;
+  margin: 0 16px;
+  width: 10px;
+}
+.gallery-nav li.gallery-item-selected{
+  background: #555;
 }
