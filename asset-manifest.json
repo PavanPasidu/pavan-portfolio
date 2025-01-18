@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pavan-portfolio/static/css/main.b94f76dc.css",
-    "main.js": "/pavan-portfolio/static/js/main.afee962d.js",
+    "main.js": "/pavan-portfolio/static/js/main.ed47adab.js",
     "static/js/453.48d34988.chunk.js": "/pavan-portfolio/static/js/453.48d34988.chunk.js",
     "static/media/project-customer-health.jpg": "/pavan-portfolio/static/media/project-customer-health.9816a7fc88ed2a2e8cff.jpg",
     "static/media/bus-eta.png": "/pavan-portfolio/static/media/bus-eta.c0c7bd3d0c5c6cdeac6f.png",
@@ -30,11 +30,11 @@
     "static/media/github.svg": "/pavan-portfolio/static/media/github.35c62173892021cb9c890a5c8bfdb394.svg",
     "static/media/nav-icon1.svg": "/pavan-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.b94f76dc.css.map": "/pavan-portfolio/static/css/main.b94f76dc.css.map",
-    "main.afee962d.js.map": "/pavan-portfolio/static/js/main.afee962d.js.map",
+    "main.ed47adab.js.map": "/pavan-portfolio/static/js/main.ed47adab.js.map",
     "453.48d34988.chunk.js.map": "/pavan-portfolio/static/js/453.48d34988.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b94f76dc.css",
-    "static/js/main.afee962d.js"
+    "static/js/main.ed47adab.js"
   ]
 }
