@@ -45,7 +45,7 @@ export const Skill = () => {
     };
 
     return (
-        <div className="gallery">
+        <div className="gallery" id="skills">
           <Row>
             <Col xs={12} md={1}>
             <div className="gallery-controls">

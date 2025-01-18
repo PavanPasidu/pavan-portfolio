@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-summary-eval.png";
+import projImg2 from "../assets/img/project-customer-health.jpg";
+import projImg3 from "../assets/img/bus-eta.png";
+import projImg4 from "../assets/img/project-hrms.jpg";
+import projImg5 from "../assets/img/project-img-gallery.jpg";
+import projImg6 from "../assets/img/project-email-client.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -31,20 +34,20 @@ export const Projects = () => {
     {
       title: "HRM-System",
       description: " Project's main aim was to streamline and automate critical HR processes, including the management of employee data, payroll, recruitment vacations.",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
       githubLink: "https://github.com/PavanPasidu/HRM-System",
     },
     {
       title: "Image Gallery App",
       description: " Simple image gallery using react, tailwind css, firestore and firebase auth for user authentication",
-      imgUrl: projImg2,
-      githubLink: "",
+      imgUrl: projImg5,
+      githubLink: "https://github.com/PavanPasidu/",
     },
     {
-      title: "Customer Churn Prediction",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      githubLink: "https://github.com/PavanPasidu/Summary-Evaluator-Streamlit",
+      title: "Email Client",
+      description: "Project's main aim was to develop an automatic email responder CLI based on Java object-oriented programming and design patterns.",
+      imgUrl: projImg6,
+      githubLink: "https://github.com/PavanPasidu/",
     },
   ];
 
@@ -55,9 +58,9 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className={isVisible ? "animate__animated animate__pulse": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Explore my work across various machine learning and full-stack development projects. From predictive models and data-driven solutions to full-featured web applications, each project reflects my expertise in developing efficient, scalable systems and leveraging advanced technologies to solve complex challenges.</p>
                 <Row>
                   {
                     projects.map((project, index) => {
