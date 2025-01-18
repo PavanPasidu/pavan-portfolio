@@ -6,8 +6,6 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
 
 export const Skills = () => {
   const responsive = {
@@ -36,43 +34,25 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Technical Skills</p>
+                        {/* <h2>Skills</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p> */}
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-
-                            <Card className="h-100 shadow-sm">
-                              <Card.Body>
-                                <Card.Title className="text-center">Frontend Developer</Card.Title>
-                                <ul className="list-unstyled">
-                                  <li className="d-flex justify-content-between">
-                                    <span>✔ HTML</span>
-                                    <p>Basic</p>
-                                  </li>
-                                  <li className="d-flex justify-content-between">
-                                    <span>✔ CSS</span>
-                                    <p>Advanced</p>
-                                  </li>
-                                  <li className="d-flex justify-content-between">
-                                    <span>✔ JavaScript</span>
-                                    <p>Intermediate</p>
-                                  </li>
-                                  <li className="d-flex justify-content-between">
-                                    <span>✔ Bootstrap</span>
-                                    <p>Intermediate</p>
-                                  </li>
-                                  <li className="d-flex justify-content-between">
-                                    <span>✔ Git</span>
-                                    <p>Intermediate</p>
-                                  </li>
-                                  <li className="d-flex justify-content-between">
-                                    <span>✔ React</span>
-                                    <p>Intermediate</p>
-                                  </li>
-                                </ul>
-                              </Card.Body>
-                            </Card>
-
-
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Web Development</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />
+                                <h5>Brand Identity</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>Logo Design</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Web Development</h5>
+                            </div>
                         </Carousel>
                     </div>
                 </div>

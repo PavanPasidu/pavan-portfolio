@@ -11,34 +11,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Summary Evaluator",
+      description: " Project's main aim was to create a model to evaluate the summary written by students(To evaluate content & grammar).",
       imgUrl: projImg1,
+      githubLink: "https://github.com/PavanPasidu/Summary-Evaluator-Streamlit",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Customer Health Score",
+      description: "Project's main aim was to develop a model to identify the customers who are unsatisfied with the service provided by the company.",
       imgUrl: projImg2,
+      githubLink: "https://github.com/PavanPasidu/CustomerHealthScore",
     },
     {
-      title: "Business Startup",
+      title: "G-BAT",
+      description: " Project's primary aim is to develop a more optimized model to predict the bus arrival time to specific stop in urban areas.",
+      imgUrl: projImg3,
+      githubLink: "https://github.com/PavanPasidu/gnn-trafic-forecasting",
+    },
+    {
+      title: "HRM-System",
+      description: " Project's main aim was to streamline and automate critical HR processes, including the management of employee data, payroll, recruitment vacations.",
+      imgUrl: projImg1,
+      githubLink: "https://github.com/PavanPasidu/HRM-System",
+    },
+    {
+      title: "Image Gallery App",
+      description: " Simple image gallery using react, tailwind css, firestore and firebase auth for user authentication",
+      imgUrl: projImg2,
+      githubLink: "",
+    },
+    {
+      title: "Customer Churn Prediction",
       description: "Design & Development",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      githubLink: "https://github.com/PavanPasidu/Summary-Evaluator-Streamlit",
     },
   ];
 
@@ -52,41 +58,18 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
+                <Row>
+                  {
+                    projects.map((project, index) => {
+                      return (
+                        <ProjectCard
+                          key={index}
+                          {...project}
+                          />
+                      )
+                    })
+                  }
+                </Row>
               </div>}
             </TrackVisibility>
           </Col>
