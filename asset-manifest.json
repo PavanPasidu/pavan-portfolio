@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/pavan-portfolio/static/css/main.b94f76dc.css",
+    "main.js": "/pavan-portfolio/static/js/main.afee962d.js",
+    "static/js/453.48d34988.chunk.js": "/pavan-portfolio/static/js/453.48d34988.chunk.js",
+    "static/media/project-customer-health.jpg": "/pavan-portfolio/static/media/project-customer-health.9816a7fc88ed2a2e8cff.jpg",
+    "static/media/bus-eta.png": "/pavan-portfolio/static/media/bus-eta.c0c7bd3d0c5c6cdeac6f.png",
+    "static/media/project-summary-eval.png": "/pavan-portfolio/static/media/project-summary-eval.9ce7d986e2c014fbe5bc.png",
+    "static/media/color-sharp2.png": "/pavan-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/full-stack.png": "/pavan-portfolio/static/media/full-stack.af93cdd3eaabdc7b6443.png",
+    "static/media/ml.png": "/pavan-portfolio/static/media/ml.5e98a8c5d1659d818240.png",
+    "static/media/dev.png": "/pavan-portfolio/static/media/dev.db683a4dffaf6d2496e1.png",
+    "static/media/email-bg.jpg": "/pavan-portfolio/static/media/email-bg.4042b5881e6769d762e3.jpg",
+    "static/media/invt-tech-bg.jpg": "/pavan-portfolio/static/media/invt-tech-bg.7acd747e68e619418c19.jpg",
+    "static/media/project-email-client.jpg": "/pavan-portfolio/static/media/project-email-client.107959fc74000aadd7e2.jpg",
+    "static/media/project-img-gallery.jpg": "/pavan-portfolio/static/media/project-img-gallery.65bb2d46f336ee10811a.jpg",
+    "static/media/skill-bg.jpg": "/pavan-portfolio/static/media/skill-bg.74c8b450abe79dc9dacd.jpg",
+    "static/media/tech-tagline-bg.jpg": "/pavan-portfolio/static/media/tech-tagline-bg.74c8b450abe79dc9dacd.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/pavan-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/pavan-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/pavan-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/project-hrms.jpg": "/pavan-portfolio/static/media/project-hrms.38c338422a47e686bc26.jpg",
+    "static/media/logo.png": "/pavan-portfolio/static/media/logo.3cdfca1031054171b627.png",
+    "static/media/profile_poto.jpeg": "/pavan-portfolio/static/media/profile_poto.b255aad2bf076b78ec19.jpeg",
+    "static/media/revicons.eot": "/pavan-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/pavan-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/pavan-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/youtube.svg": "/pavan-portfolio/static/media/youtube.e1741f0a5e3ee68c59d8f81962d106d7.svg",
+    "index.html": "/pavan-portfolio/index.html",
+    "static/media/github.svg": "/pavan-portfolio/static/media/github.35c62173892021cb9c890a5c8bfdb394.svg",
+    "static/media/nav-icon1.svg": "/pavan-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.b94f76dc.css.map": "/pavan-portfolio/static/css/main.b94f76dc.css.map",
+    "main.afee962d.js.map": "/pavan-portfolio/static/js/main.afee962d.js.map",
+    "453.48d34988.chunk.js.map": "/pavan-portfolio/static/js/453.48d34988.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b94f76dc.css",
+    "static/js/main.afee962d.js"
+  ]
+}
