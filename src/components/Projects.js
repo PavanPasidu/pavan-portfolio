@@ -39,15 +39,15 @@ export const Projects = () => {
     },
     {
       title: "Image Gallery App",
-      description: " Simple image gallery using react, tailwind css, firestore and firebase auth for user authentication",
+      description: " Simple image gallery using react, tailwind css, firestore and firebase auth for user authentication - tutorial",
       imgUrl: projImg5,
-      githubLink: "https://github.com/PavanPasidu/",
+      githubLink: "",
     },
     {
       title: "Email Client",
       description: "Project's main aim was to develop an automatic email responder CLI based on Java object-oriented programming and design patterns.",
       imgUrl: projImg6,
-      githubLink: "https://github.com/PavanPasidu/",
+      githubLink: "https://github.com/PavanPasidu/Email-client",
     },
   ];
 
